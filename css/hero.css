@@ -41,9 +41,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-.policy__svg {
-    display: none;
-}
+
 
 
 
@@ -68,18 +66,14 @@
         display: flex;
         align-items: center;
     }
-    .policy__svg {
-        display: block;
-        width: 30rem;
-        height: 30rem;
-    }
+   .policy {
+    padding: 15rem;
+   }
     .policy__box {
         margin-left: 0;
         margin-right: 0;
     }
-    .policy__block--mb .policy__svg {
-        margin-right: 3rem;
-    }
+   
     .policy__block--mb .policy__box {
         text-align: left;
     }
@@ -93,8 +87,5 @@
     .policy__block--second .btn {
         margin-right: 0;
     }
-    .policy__block--second .policy__svg {
-        transform: rotate(180deg);
-        margin-left: 3rem;
-    }
+   
 }

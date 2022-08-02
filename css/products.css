@@ -120,9 +120,7 @@
    width: 1.3rem;
    height: 1.3rem;
 }
-.products__bottom-svg {
-    display: none;
-}
+
 @media screen and (min-width: 1440px) { 
 
     .product__img-box {
@@ -140,20 +138,9 @@
         position: relative;
     }
     .hero-products .products__block {
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-between;
+        padding: 0 25rem ;
     }
-    .products__bottom-svg {
-        display: block;
-        width: 30rem;
-        min-width: 30rem;
-        height: 30rem;
-        transform: rotate(90deg);
-    }
-    .products__bottom-svg--second {
-        transform: rotate(90deg) scale(1, -1);
-    }
+ 
 
 }
 
