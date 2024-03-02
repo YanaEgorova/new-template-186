@@ -124,7 +124,7 @@
 @media screen and (min-width: 1440px) { 
 
     .product__img-box {
-        margin-right: 0;
+        /* margin-right: 0; */
         width: 23rem;
         height: 23rem;
     }

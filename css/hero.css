@@ -73,12 +73,14 @@
         margin-left: 0;
         margin-right: 0;
     }
-   
+   .policy__block--mb .policy__box {
+    margin: 0 auto;
+   }
     .policy__block--mb .policy__box {
-        text-align: left;
+        /* text-align: left; */
     }
     .policy__block--mb .btn {
-        margin-left: 0;
+        /* margin-left: 0; */
     }
     .policy__block--second {
         justify-content: flex-end;
